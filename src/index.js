@@ -2,6 +2,7 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
+  if (matrix == undefined || matrix.length == 0) return [];
   let i = 0;
   let revArr = [];
   let result = [];
@@ -15,7 +16,7 @@ module.exports = function towelSort (matrix) {
         result = matrix[i];
       }
       return arrNew;
-    }return [];
+    }
   }
   
   
